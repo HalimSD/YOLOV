@@ -1,3 +1,5 @@
 
 yolox/data/datasets/train_seq.npy
 *.json
+weights
+.DS_Store

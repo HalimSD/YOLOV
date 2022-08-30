@@ -1,23 +1,23 @@
-numpy
-torch==1.9.0
-opencv_python
-loguru
-scikit-image
-tqdm
-torchvision>=0.10.0
-Pillow
-thop
-ninja
-tabulate
-tensorboard
-lap
-motmetrics
-filterpy
-h5py
-sklearn
+# numpy
+# torch==1.9.0
+# opencv_python
+# loguru
+# scikit-image
+# tqdm
+# torchvision>=0.10.0
+# Pillow
+# thop
+# ninja
+# tabulate
+# tensorboard
+# lap
+# motmetrics
+# filterpy
+# h5py
+# sklearn
 
 
-# verified versions
+# # verified versions
 pycocotools>=2.0.2
 onnx==1.8.1
 onnxruntime==1.8.0

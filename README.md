@@ -5,7 +5,7 @@
 ## Introduction
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov-making-still-image-object-detectors/video-object-detection-on-imagenet-vid)](https://paperswithcode.com/sota/video-object-detection-on-imagenet-vid?p=yolov-making-still-image-object-detectors)
 
-YOLOV is an high perfomance video object detector.  Please refer to our [paper](https://arxiv.org/abs/2208.09686) on Arxiv for more details.
+YOLOV is a high perfomance video object detector.  Please refer to our [paper](https://arxiv.org/abs/2208.09686) on Arxiv for more details.
 
 This repo is an implementation of PyTorch version YOLOV based on [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX).
 
@@ -26,7 +26,8 @@ This repo is an implementation of PyTorch version YOLOV based on [YOLOX](https:/
 | YOLOV-x + [post](https://github.com/AlbertoSabater/Robust-and-efficient-post-processing-for-video-object-detection) | 576  |        87.5        |                 -                  |                                              -                                               |
 
 
-
+## TODO
+Add YOLOv7 bases
 
 ## Quick Start
 

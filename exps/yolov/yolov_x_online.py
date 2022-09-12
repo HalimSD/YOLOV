@@ -5,6 +5,11 @@ from yolox.data.datasets import vid
 from loguru import logger
 import torch
 
+from yolox.models import YOLOPAFPN
+from yolox.models.yolov_msa_online import YOLOXHead
+# from yolox.models.mhead_trans import YOLOXHead
+
+from yolox.models.yolov_online import YOLOX
 
 class Exp(MyExp):
     def __init__(self):
@@ -31,11 +36,6 @@ class Exp(MyExp):
         # COCO API has been changed
 
     def get_model(self):
-        from yolox.models import YOLOPAFPN
-        from yolox.models.yolov_msa_online import YOLOXHead
-        # from yolox.models.mhead_trans import YOLOXHead
-
-        from yolox.models.yolov_online import YOLOX
 
         def init_yolo(M):
             for m in M.modules():
